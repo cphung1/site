@@ -1,13 +1,12 @@
 import React from "react";
-import "./SideNav.css";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-{/* <FontAwesomeIcon icon="bars" /> */}
+import "./Toolbar.css";
+import SideBarToggleButton from "../SideBar/SideBarToggleButton"
 
-export default function SideNav(props) {
+export default function Toolbar(props) {
   return (
     <header className="header">
       <nav className="header_navigation">
-        <div></div>
+        <div><SideBarToggleButton click={props.sideBarClickHandler}/></div>
         <div className="header_logo">
           <a href="/">THE LOGO</a>
         </div>
