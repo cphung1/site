@@ -6,7 +6,7 @@ export default function Toolbar(props) {
   return (
     <header className="header">
       <nav className="header_navigation">
-        <div><SideBarToggleButton click={props.sideBarClickHandler}/></div>
+        <div className="header_toggle_button"><SideBarToggleButton click={props.sideBarClickHandler}/></div>
         <div className="header_logo">
           <a href="/">THE LOGO</a>
         </div>

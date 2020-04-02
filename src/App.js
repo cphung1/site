@@ -24,18 +24,16 @@ class App extends Component {
   }
 
   render () {
-    let sideBar;
     let backdrop;
   
     if(this.state.sideBarOpen) {
-      sideBar = <SideBar />
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
   
     return (
       <div className="App" style={{height: '100%'}}>
         <Toolbar sideBarClickHandler={this.sideBarToggleClickHandler}/>
-        {sideBar}
+        <SideBar show={this.state.sideBarOpen}/>
         {backdrop}
         <main style={{marginTop: '64px'}}>
           <p>This is the page content!</p>
