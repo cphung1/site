@@ -1,4 +1,5 @@
 import React from "react";
+
 import "./Toolbar.css";
 import SideBarToggleButton from "../SideBar/SideBarToggleButton"
 
@@ -6,11 +7,10 @@ export default function Toolbar(props) {
   return (
     <header className="header">
       <nav className="header_navigation">
-        <div className="header_toggle_button"><SideBarToggleButton click={props.sideBarClickHandler}/></div>
-        <div className="header_logo">
-          <a href="/">THE LOGO</a>
+        <div className="header_toggle_button">
+          <SideBarToggleButton click={props.sideBarClickHandler}/>
+          <h5>Navigation</h5>
         </div>
-        <div className="spacer"></div>
         <div className="side_nav_items">
           <ul>
             <li><a href="/">About</a></li>

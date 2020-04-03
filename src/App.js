@@ -1,8 +1,10 @@
 import React, {Component, useState} from 'react';
-// import './App.css';
+import './App.css';
 import Toolbar from './components/Navigation/Toolbar';
 import SideBar from './components/SideBar/SideBar';
 import Backdrop from './components/Backdrop/Backdrop';
+import Main from './components/Main/Main';
+import About from './components/About/About';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
@@ -35,8 +37,9 @@ class App extends Component {
         <Toolbar sideBarClickHandler={this.sideBarToggleClickHandler}/>
         <SideBar show={this.state.sideBarOpen}/>
         {backdrop}
-        <main style={{marginTop: '64px'}}>
-          <p>This is the page content!</p>
+        <main>
+          <Main />
+          <About />
         </main>
       </div>
     );
