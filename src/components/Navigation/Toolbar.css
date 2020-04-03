@@ -7,7 +7,7 @@
   left: 0;
   background-color:white;
   overflow-x: hidden;
-  box-shadow: 1px 0px 5px rgba(114, 190, 237, 0.15);
+  box-shadow: 1px 0px 5px rgba(115, 190, 237, 0.28);
 }
 
 .header_navigation {
@@ -47,7 +47,12 @@
 
 @media (max-width: 860px) {
   .side_nav_items {
-    display: none;
+    width: 100%
+  }
+  .side_nav_items ul {
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-evenly;
   }
   .header {
     background-color: white;
@@ -83,9 +88,9 @@
   border: 1px solid white;
 }
 
-h4 {
+/* h4 {
   color: white;
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-}
+} */

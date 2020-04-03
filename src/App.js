@@ -6,9 +6,12 @@ import Backdrop from './components/Backdrop/Backdrop';
 import Main from './components/Main/Main';
 import About from './components/About/About';
 
+
+
+
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faCoffee, faBars } from '@fortawesome/free-solid-svg-icons'
-library.add(faCoffee, faBars)
+import { faBars } from '@fortawesome/free-solid-svg-icons'
+library.add( faBars)
 
 class App extends Component {
   state = {
@@ -38,8 +41,6 @@ class App extends Component {
         <SideBar show={this.state.sideBarOpen}/>
         {backdrop}
         <main>
-          <Main />
-          <About />
         </main>
       </div>
     );

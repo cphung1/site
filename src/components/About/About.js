@@ -6,7 +6,27 @@ import "./About.css";
 export default function About(props) {
   return (
     <div className="about">
-      <p>Nunc mollis eu arcu et pulvinar. Phasellus scelerisque malesuada nulla ac ultricies. Aliquam hendrerit finibus euismod. Vivamus efficitur mi in faucibus tincidunt. Nullam eu mattis augue. Nullam ultrices sem scelerisque ipsum rhoncus, vel luctus tellus vestibulum. Morbi vestibulum gravida eros vel pulvinar. Suspendisse potenti.</p>
+      <div className='picture'>
+        <img src="./images/profile.jpeg" className="fade-in"></img>
+      </div>
+
+      <div className="about_me">
+        <div className="about_text">
+        <h2>About me</h2>
+        <p>Suspendisse ultricies ante sit amet lacus rhoncus, id vulputate nulla fermentum. Etiam vestibulum ipsum a accumsan sagittis. Praesent ullamcorper risus justo, id semper risus finibus ut. Sed vulputate augue turpis, quis posuere nibh dignissim eget. Proin a dolor ut quam tempor finibus id non purus. Duis at ipsum non dolor dapibus semper at sit amet magna. Nam iaculis tempus tellus at congue. Aliquam erat volutpat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam feugiat id lorem aliquet finibus.</p>
+
+        <h4>Techlogies I've been working with: </h4>
+
+        <ul>
+          <li>JavaScript</li>
+          <li>Node.js</li>
+          <li>React.js</li>
+          <li>Ruby</li>
+          <li>Rails</li>
+          <li>Express</li>
+        </ul>
+        </div>
+      </div>
     </div>
   );
 };
