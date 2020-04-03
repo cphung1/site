@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap');
+
 .main {
   display: flex;
   flex-direction: column;
@@ -10,13 +12,14 @@
 .greeting{
   font-size: 1.5rem;
   color: #607a8a;
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 .full_name {
-  font-size: 3rem;
+  font-size: 4rem;
   margin: 0;
   color: #43494d;
-  display: inline
+  font-family: 'Pontano Sans', sans-serif;
 }
 
 .name {
@@ -27,7 +30,7 @@
   position: absolute;
   max-width: 100%;
   z-index: -1;
-  top: 0;
+  top: 1.2rem;
   left: 0;
   bottom: 0;
   height: 100px;

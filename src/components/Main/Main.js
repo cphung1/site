@@ -10,7 +10,7 @@ export default function Main(props) {
     <div className="main">
       <h1 className="greeting">Hello, my name is</h1>
       <div className="name"> 
-      <h2 className="full_name">Cathy Phung.       
+      <h2 className="full_name">Cathy Phung       
         <img className="stroke fade-in" src="/images/blue.png"></img>
       
       </h2>

@@ -7,7 +7,8 @@
   left: 0;
   background-color:white;
   overflow-x: hidden;
-  box-shadow: 1px 0px 5px rgba(115, 190, 237, 0.28);
+  /* box-shadow: 1px 0px 5px rgba(115, 190, 237, 0.28); */
+  border-right: 1px solid #ebf5fa
 }
 
 .header_navigation {
@@ -35,14 +36,18 @@
 }
 
 .side_nav_items a {
-  text-decoration: none;
+  /* text-decoration: none; */
   font-size: 1.2rem;
-  color: #2a2c2e
+  /* color: #2a2c2e */
+  color: #71acd9;
+  /* color: black; */
+  text-decoration:  underline solid lightgrey;
 }
 
 .side_nav_items a:hover, 
 .side_nav_items a:active{
-  color: #71acd9;
+  /* color: #71acd9; */
+  color: black;
 }
 
 @media (max-width: 860px) {
