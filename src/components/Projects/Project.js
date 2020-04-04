@@ -1,6 +1,7 @@
 import React, { useState }from 'react';
 import "./Project.css";
 import Modal from "../Modal/Modal";
+import Backdrop from '../Backdrop/Backdrop';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Project(props) {
@@ -32,6 +33,7 @@ export default function Project(props) {
         "
         stack={['React', 'Node', 'Express', 'Jest', 'Storybook', 'Cypress']}
       />
+      <Backdrop show={state.show} click={showModal}/>
       {/* <button  onClick={() => showModal()}> Show Modal </button> */}
 
       {/* <div className="project_text">

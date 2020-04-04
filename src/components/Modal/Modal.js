@@ -9,17 +9,14 @@ export default function Modal(props) {
     return null;
   }
   return (
-    <div class="modal" id="modal">
-      <div class="content">
+    <div className="modal">
+      <div className="content">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
         <ul className="project_stack">
           {listStack}
         </ul>
-      </div>
-      
-      <div class="actions">
-        <button onClick={props.onClose}>close</button>
+        <button onClick={props.onClose}>X</button>
       </div>
     </div>
   );
