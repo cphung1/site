@@ -1,5 +1,6 @@
 import React from "react";
 import "./Modal.css"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 export default function Modal(props) {
 
@@ -13,10 +14,15 @@ export default function Modal(props) {
       <div className="content">
         <h3>{props.title}</h3>
         <p>{props.description}</p>
+        <h5>Tech Stack</h5>
         <ul className="project_stack">
           {listStack}
         </ul>
         <button onClick={props.onClose}>X</button>
+        <a className="project_link" href={props.link}>
+            <label>Github</label>
+            <FontAwesomeIcon icon={['fab', 'github']} size="lg" className="github_icon"/> 
+        </a>
       </div>
     </div>
   );

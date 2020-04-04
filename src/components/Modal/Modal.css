@@ -9,10 +9,7 @@
   opacity: 1;
   visibility: visible;
   position: absolute;
-  width: 50%;
-  margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 10%;
+  width: inherit;
   z-index: 200;
 }
 
@@ -20,11 +17,27 @@
   background: white;
   border: 1px solid #ccc;
   padding: 1.5rem;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
 .content button {
   position: absolute;
-  top: 1.5rem;
-  right: 1.5rem;
+  top: 5%;
+  right: 21%;
 }
 
+.project_stack{ 
+  list-style: none;
+  columns: 2;
+}
+
+.project_link {
+  text-decoration: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.github_icon {
+  padding-left: 0.5rem;
+}
