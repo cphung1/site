@@ -1,0 +1,9 @@
+.project {
+  display: flex;
+  margin-right: 5em;
+}
+
+.project img {
+  width: 90%;
+  height: auto;
+}

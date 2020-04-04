@@ -8,6 +8,7 @@ import {
 
 import Main from '../Main/Main';
 import About from '../About/About';
+import Projects from '../Projects/Projects';
 
 
 import "./Toolbar.css";
@@ -43,6 +44,9 @@ export default function Toolbar(props) {
           </Route>
           <Route path="/about">
             <About />
+          </Route>
+          <Route path="/projects">
+            <Projects />
           </Route>
         </Switch>
     </Router>

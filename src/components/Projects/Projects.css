@@ -1,0 +1,5 @@
+.projects { 
+  padding-left: 20rem;
+  display: flex;
+  flex-direction: column;
+}
