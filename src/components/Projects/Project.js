@@ -7,6 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Project(props) {
   const [state, setState] = useState({
     show: false,
+    index: 0,
+    
   });
 
   const showModal = e => {
@@ -17,9 +19,12 @@ export default function Project(props) {
 
 
   return (
-    <div className="project">
-      <div>
-        <img src={props.image} alt={props.image_alt} onClick={() => showModal()}></img>
+    <div className="project fade-in ">
+      <div className="container">
+        <img className="project_image" src={props.image} alt={props.image_alt}></img>
+        <div className="overlay" onClick={() => showModal()}>
+          <div className="text">{props.title}</div>
+        </div>
       </div>
       <Modal 
         show={state.show}

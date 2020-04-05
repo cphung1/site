@@ -32,7 +32,7 @@
 }
 
 .about_me {
-  margin-top: 23rem;
+  margin-top: 20rem;
   margin-left: 0.5rem;
   margin-right: 5rem;
   border: 2px solid#d7eaf5;
@@ -52,7 +52,7 @@
 .about_text h2 {
   font-family: 'Pontano Sans', sans-serif;
   font-size: 3rem;
-  text-decoration: underline solid lightgrey;
+  text-decoration: underline solid lightblue;
 }
 
 .about_text h4 {
@@ -97,10 +97,42 @@
 
 @media (max-width: 860px) {
   .about {
-    padding-top: 8rem;
-    padding-left: 0;
+    padding-top: 0;
+    flex-direction: column;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .picture img {
+    margin-top: 8rem;
+  }
+  .picture::after {
+    left: 0.6rem;
+    top: 8.5rem;
+    width: 20rem;
+  }
+
+  .about_me {
+    margin-top: 3rem;
+    margin-left: 0;
+    margin-right: 0.5rem;
   }
 }
+
+@media (max-width: 360px) {
+  .picture img {
+    height: 17rem;
+    width: 17rem;
+  }
+  .picture::after {
+    left: 0.6rem;
+    top: 8.5rem;
+    width: 17rem;
+    height: 17rem;
+  }
+}
+
+
 
 @keyframes slideL2R {
   from {

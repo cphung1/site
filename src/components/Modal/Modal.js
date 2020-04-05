@@ -18,10 +18,10 @@ export default function Modal(props) {
         <ul className="project_stack">
           {listStack}
         </ul>
-        <button onClick={props.onClose}>X</button>
+        <button onClick={props.onClose}><FontAwesomeIcon icon={'times'} size='lg'/></button>
         <a className="project_link" href={props.link}>
             <label>Github</label>
-            <FontAwesomeIcon icon={['fab', 'github']} size="lg" className="github_icon"/> 
+            <FontAwesomeIcon icon={['fab', 'github']} size="2x" className="github_icon"/> 
         </a>
       </div>
     </div>
