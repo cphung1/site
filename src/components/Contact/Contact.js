@@ -15,7 +15,7 @@ export default function Contact(props) {
         </li>
         <li >
           <a href="https://www.linkedin.com/in/cphung1/" className="link">
-            <FontAwesomeIcon icon={['fab', 'linkedin-in']} className="icon"/> LinkdeIn
+            <FontAwesomeIcon icon={['fab', 'linkedin-in']} className="icon"/> LinkedIn
           </a>
         </li>
         <li >

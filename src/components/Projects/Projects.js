@@ -43,12 +43,12 @@ export default function Projects(props) {
         </div>
         <div className="column">
           <Project 
-            image="images/food-pickup.png"
-            image_alt="screenshot of food pick-up app"
-            title="Food Pick-up"
-            description="A food ordering pick up application for a single restaurant that was built using AJAX. Twilio API is used to send text messages to the restaurant to confirm orders. Customers get text messages for order updates."
-            stack={['Node', 'Express', 'JQuery', 'Twilio', 'PostgreSQL']}
-            link='https://github.com/cphung1/food-pickup' 
+            image={["images/tweeter.png"]}
+            image_alt="screenshot of tweeter app"
+            title="Tweeter"
+            description="Tweeter is a dynamic, simple, single-page application. It is a clone of Twitter. Users can create and submit new tweets. It uses Ajax to update the tweets on the screen."
+            stack={['Node', 'Express', 'JQuery']}
+            link='https://github.com/cphung1/scheduler'
           />
         </div>
         </div>
