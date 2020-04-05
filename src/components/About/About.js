@@ -28,8 +28,8 @@ export default function About(props) {
           <li>jQuery</li>
           <li>postgreSQL</li>
         </ul>
-        </div>
       </div>
     </div>
+  </div>
   );
 };

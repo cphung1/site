@@ -45,9 +45,8 @@
   right: 0;
   height: 100%;
   width: 100%;
-  opacity: 0.85;
   transition: .5s ease;
-  background-color: #f5fcff;
+  background-color: rgba(245, 247, 255, 0.7)
 }
 
 .container {
@@ -66,7 +65,7 @@
 .text {
   font-family: 'Pontano Sans', sans-serif;
   color: #43494d;
-  font-size: 3rem;
+  font-size: 2rem;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -74,14 +73,18 @@
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  background-color: rgba(245, 247, 255, 0.8);
+  padding: 1rem;
+  border: 1px solid rgba(226, 227, 228, 0.52);
+  border-radius: 8px;
 }
 
 .fade-in {
-  animation: fadeIn ease 2s;
-  -webkit-animation: fadeIn ease 2s;
-  -moz-animation: fadeIn ease 2s;
-  -o-animation: fadeIn ease 2s;
-  -ms-animation: fadeIn ease 2s;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  -ms-animation: fadeIn ease 1s;
 }
 
 @media (max-width: 1014px) {

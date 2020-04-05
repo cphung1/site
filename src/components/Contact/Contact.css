@@ -1,0 +1,77 @@
+.contact{
+  padding-left: 20rem;  
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.contact h1 {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 3rem;
+  color: #43494d;
+  margin-top: 50vh;
+  text-decoration: underline solid lightblue;
+}
+
+.contact ul {
+  list-style: none; 
+  margin-top: 39vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 2px solid#d7eaf5;
+  border-radius: 1%;
+  height: fit-content;
+  padding: 3rem;
+  position: relative;
+  width: fit-content;
+}
+
+.contact ul::after {
+  border-top: 10px solid #f5fcff;
+  border-radius: 1%;
+  background-color: #f5fcff;
+  content: "";
+  margin: 0 auto;
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: -1;
+  width: 101%;
+  height: 100%;
+}
+
+.contact li {
+  margin: 1rem;
+}
+
+.contact li a {
+  text-decoration: none;
+  color: #43494d;
+}
+
+.icon {
+  margin-right: 1rem;
+}
+
+.link:hover{
+  color: lightblue;
+}
+
+@media (max-width: 860px) {
+  .contact {
+    padding-left: 10%;
+    flex-direction: column;
+    padding-top: 7rem;
+  }
+
+  .contact h1 {
+    margin-top: 0;
+    font-size: 2.5rem;
+  }
+
+  .contact ul {
+    margin-left: 0;
+    margin-top: 1.5rem;
+    padding: 1.5rem;
+  }
+}
