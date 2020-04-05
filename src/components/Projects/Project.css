@@ -9,7 +9,35 @@
   border-radius: 1%;
 }
 
+.back {
+  position: absolute;
+  height: 100%;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.back:hover {
+  color:#71acd9;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.forward {
+  position: absolute;
+  height: 100%;
+  right: 0;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.forward:hover{
+  color:#71acd9;
+  background-color: rgba(0,0,0,0.2);
+}
+
 .overlay {
+  /* display: none; */
   position: absolute;
   top: 0;
   bottom: 0;
@@ -27,8 +55,12 @@
   width: 100%;
 }
 
+.container:hover {
+  cursor: pointer;
+}
+
 .container:hover .overlay {
-  opacity: 0;
+  display: none;
 }
 
 .text {

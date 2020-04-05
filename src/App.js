@@ -11,8 +11,8 @@ import About from './components/About/About';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab , faGithub} from '@fortawesome/free-brands-svg-icons'
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons'
-library.add( faBars, faGithub, fab, faTimes)
+import { faBars, faTimes, faChevronRight, faChevronLeft } from '@fortawesome/free-solid-svg-icons'
+library.add( faBars, faGithub, fab, faTimes, faChevronRight, faChevronLeft)
 
 class App extends Component {
   state = {
