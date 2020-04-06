@@ -14,12 +14,12 @@ export default function Contact(props) {
           </a>
         </li>
         <li >
-          <a href="https://www.linkedin.com/in/cphung1/" className="link">
+          <a href="https://www.linkedin.com/in/cphung1/" target="_blank" className="link">
             <FontAwesomeIcon icon={['fab', 'linkedin-in']} className="icon"/> LinkedIn
           </a>
         </li>
         <li >
-          <a href="https://github.com/cphung1" className="link">
+          <a href="https://github.com/cphung1" target="_blank" className="link">
             <FontAwesomeIcon icon={['fab', 'github']} className="icon" /> GitHub
           </a>
         </li>
