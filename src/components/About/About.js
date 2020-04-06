@@ -7,7 +7,7 @@ export default function About(props) {
   return (
     <div className="about">
       <div className='picture'>
-        <img src="./images/profile.jpeg" className="fade-in"></img>
+        <img src="./images/profile.jpeg" className="fade-in-about"></img>
       </div>
 
       <div className="about_me">
