@@ -1,0 +1,10 @@
+.max {
+  padding-left: 20rem;
+}
+
+.max h1 {
+  font-family: 'Pontano Sans', sans-serif;
+  font-size: 3rem;
+  color: #43494d;
+  text-decoration: underline solid lightblue;
+}

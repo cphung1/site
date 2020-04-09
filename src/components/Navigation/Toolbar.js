@@ -10,6 +10,7 @@ import Main from '../Main/Main';
 import About from '../About/About';
 import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
+import Max from "../Max/Max";
 
 
 import "./Toolbar.css";
@@ -51,6 +52,9 @@ export default function Toolbar(props) {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/max">
+            <Max />
           </Route>
         </Switch>
     </Router>
