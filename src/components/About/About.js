@@ -13,8 +13,8 @@ export default function About(props) {
       <div className="about_me">
         <div className="about_text">
         <h2>About Me</h2>
-        <p>Suspendisse ultricies ante sit amet lacus rhoncus, id vulputate nulla fermentum. Etiam vestibulum ipsum a accumsan sagittis. Praesent ullamcorper risus justo, id semper risus finibus ut. Sed vulputate augue turpis, quis posuere nibh dignissim eget.</p>
-        <br/>
+        <p>Full stack web developer with a background in education. While teaching elementary school students how to code, I found myself more drawn to what they were doing than what I was. This placed me in front of a tough choice- do I continue teaching or follow the intrigue into the coding world? Having taken a few classes in computer science, I knew it was something I enjoyed. So, I took the plunge, changed my career path, and haven’t looked back.</p>
+        {/* <br/> */}
         {/* <p>I love sharing pictures of my 
           <a href="/max"> dog</a>.
         </p> */}

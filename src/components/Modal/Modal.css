@@ -86,6 +86,11 @@
   color: black;
 }
 
+/* .github_icon:hover, .project_link label:hover {
+  color: black;
+} */
+
+
 @media (max-width: 860px) {
   .modal {
     left: 20vw
