@@ -31,6 +31,7 @@
 .back:hover {
   color:#71acd9;
   background-color: rgba(0,0,0,0.1); 
+  cursor: pointer;
 }
 
 .forward {
@@ -55,6 +56,7 @@
 .forward:hover{
   color:#71acd9;
   background-color: rgba(0,0,0,0.1); 
+  cursor: pointer;
 }
 
 .overlay {

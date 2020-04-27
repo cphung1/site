@@ -23,7 +23,7 @@ export default function Projects(props) {
             image={["images/schedular/sched_main_page.png", "images/schedular/schedular.png", "images/schedular/sched_storybook.png", "images/schedular/sched_cypress.png"]}
             image_alt="screenshot of schedular app"
             title="Schedular"
-            description="Scheduler is a web app that allows users to create, delete and edit interview appointmments. Users can enter the name of the interviewee, and select from a list of available interviewers. Application includes built-in test features."
+            description="Scheduler is a web app that allows users to create, delete and edit interview appointments. Users can enter the name of the interviewee, and select from a list of available interviewers. Application includes built-in test features."
             stack={['React', 'Node', 'Express', 'Jest', 'Storybook', 'Cypress']}
             link='https://github.com/cphung1/scheduler'
           />
